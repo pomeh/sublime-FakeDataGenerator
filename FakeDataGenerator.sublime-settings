@@ -1,0 +1,14 @@
+{
+	/*
+		see locales in https://github.com/joke2k/faker#localization
+		A quick list: cs_CZ, de_DE, dk_DK, el_GR, en_CA, en_GB, en_US, es_ES, es_MX, fa_IR,
+		fi_FI, fr_FR, hi_IN, it_IT, lt_LT, lv_LV, ko_KR, pl_PL, pt_BR, ru_RU, zh_CN, zh_TW
+	*/
+	"locale": "en_GB",
+
+	/*
+		write something to always generate the same data, or
+		leave empty to generate different data each time
+	*/
+	"seed": "yep"
+}

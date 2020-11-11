@@ -1,0 +1,34 @@
+[{
+	"caption": "Preferences",
+	"mnemonic": "n",
+	"id": "preferences",
+	"children": [{
+		"caption": "Package Settings",
+		"mnemonic": "P",
+		"id": "package-settings",
+		"children": [{
+			"caption": "Fake Data Generator",
+			"children": [{
+				"command": "open_file",
+				"args": {
+					"file": "${packages}/FakeDataGenerator/FakeDataGenerator.sublime-settings"
+				},
+				"caption": "Settings – Default"
+			}, {
+				"command": "open_file",
+				"args": {
+					"file": "${packages}/User/FakeDataGenerator.sublime-settings"
+				},
+				"caption": "Settings – User"
+			}, {
+				"command": "open_file",
+				"args": {
+					"file": "${packages}/FakeDataGenerator/readme.md"
+				},
+				"caption": "Usage – readme.md"
+			}, {
+				"caption": "-"
+			}]
+		}]
+	}]
+}]

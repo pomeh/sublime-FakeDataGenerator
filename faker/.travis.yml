@@ -1,0 +1,16 @@
+language: python
+branches:
+  only:
+    - master
+python:
+  - 2.6
+  - 2.7
+  - 3.3
+  - 3.4
+install:
+  - pip install -e .
+  - pip install coveralls
+script:
+  - coverage run --source=faker setup.py test
+after_success:
+  - coveralls
